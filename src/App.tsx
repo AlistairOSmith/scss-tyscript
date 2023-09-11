@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Button } from 'antd';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import First from './components/first';
+import Second from './components/second';
+import Third from './components/third';
+import Fourth from './components/fourth';
+import Fifth from './components/fifth';
+import Sixth from './components/sixth';
 import './App.css';
+import './components/style.scss'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<First />} />
+          <Route path='/second' element={<Second />} />
+          <Route path='/third' element={<Third />} />
+          <Route path='/fourth' element={<Fourth />} />
+          <Route path='/fifth' element={<Fifth />} />
+          <Route path='/sixth' element={<Sixth />} />
+        </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }

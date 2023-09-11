@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -28,10 +28,61 @@
   color: #61dafb;
 }
 
+.font-style {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: larger;
+  margin-left: 40px;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.btn-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.up-layout {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.down-layout {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.type-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.ant-btn {
+  display: block;
+  margin: 30px;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+  background-color: rgb(153, 152, 152);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,0 +1,3556 @@
+// button height size
+
+$xs-12: 12px;
+$xs-8: 16px;
+$xs-4: 20px;
+$xs: 24px;
+$sm-4: 28px;
+$sm: 32px;
+$md-4: 36px;
+$md: 40px;
+$lg-4: 44px;
+$lg: 48px;
+$xl-4: 52px;
+$xl: 56px;
+$xl2: 64px;
+$xl3: 72px;
+$xl4: 80px;
+$xl5: 88px;
+$xl6: 96px;
+$xl7: 104px;
+$xl8: 112px;
+
+// butteon width size
+
+$w-xs: 120px;
+$w-sm: 140px;
+$w-md: 160px;
+$w-lg: 180px;
+$w-xl: 200px;
+$w-xxl: 240px;
+$w-2xl: 240px;
+$w-3xl: 280px;
+$w-4xl: 320px;
+$w-5xl: 360px;
+$w-6xl: 400px;
+
+
+$radius: 10px;
+
+// button background-color
+
+$bg-color1: white;
+$bg-color2: white;
+$bg-color3: rgb(153, 184, 184);
+
+.button1 {
+    .btn1 {
+        height: $sm;
+        width: $w-xs;
+        padding: 4px;
+        font-size: $xs-12;
+    }
+
+    .btn2 {
+        height: $md-4;
+        width: $w-sm;
+        padding: 4px;
+        font-size: $xs-12;
+    }
+
+    .btn3 {
+        height: $md;
+        width: $w-md;
+        padding: 4px;
+        font-size: $xs-8;
+    }
+
+    .btn4 {
+        height: $lg-4;
+        width: $w-lg;
+        padding: 4px;
+        font-size: $xs-4;
+    }
+
+    .btn5 {
+        height: $lg;
+        width: $w-xl;
+        padding: 4px;
+        font-size: $xs;
+    }
+
+    .btn6 {
+        height: $xl;
+        width: $w-xxl;
+        padding: 4px;
+        font-size: $sm-4;
+    }
+}
+
+.button2 {
+    .btn1 {
+        height: $sm;
+        width: $w-xs;
+        padding: 4px;
+        font-size: $xs-12;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn2 {
+        height: $md-4;
+        width: $w-sm;
+        padding: 4px;
+        font-size: $xs-12;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn3 {
+        height: $md;
+        width: $w-md;
+        padding: 4px;
+        font-size: $xs-8;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn4 {
+        height: $lg-4;
+        width: $w-lg;
+        padding: 4px;
+        font-size: $xs-4;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn5 {
+        height: $lg;
+        width: $w-xl;
+        padding: 4px;
+        font-size: $xs;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn6 {
+        height: $xl;
+        width: $w-xxl;
+        padding: 4px;
+        font-size: $sm-4;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+}
+
+.button3 {
+    .btn1 {
+        height: $sm;
+        width: $w-xs;
+        padding: 4px;
+        font-size: $xs-12;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn2 {
+        height: $md-4;
+        width: $w-sm;
+        padding: 4px;
+        font-size: $xs-12;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn3 {
+        height: $md;
+        width: $w-md;
+        padding: 4px;
+        font-size: $xs-8;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn4 {
+        height: $lg-4;
+        width: $w-lg;
+        padding: 4px;
+        font-size: $xs-4;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn5 {
+        height: $lg;
+        width: $w-xl;
+        padding: 4px;
+        font-size: $xs;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn6 {
+        height: $xl;
+        width: $w-xxl;
+        padding: 4px;
+        font-size: $sm-4;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+}
+
+.button4 {
+    .btn1 {
+        height: $sm;
+        width: $w-xs;
+        padding: 4px;
+        font-size: $xs-12;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn2 {
+        height: $md-4;
+        width: $w-sm;
+        padding: 4px;
+        font-size: $xs-12;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn3 {
+        height: $md;
+        width: $w-md;
+        padding: 4px;
+        font-size: $xs-8;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn4 {
+        height: $lg-4;
+        width: $w-lg;
+        padding: 4px;
+        font-size: $xs-4;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn5 {
+        height: $lg;
+        width: $w-xl;
+        padding: 4px;
+        font-size: $xs;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn6 {
+        height: $xl;
+        width: $w-xxl;
+        padding: 4px;
+        font-size: $sm-4;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+
+    }
+}
+
+.btn-type {
+    .btn1 {
+        width: $w-xxl;
+        height: $xl;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+    }
+
+    .btn2 {
+        width: $xl;
+        height: $xl ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px;
+        padding: 4px;
+    }
+
+    .btn3 {
+        width: $w-xxl;
+        height: $xl;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: $radius;
+    }
+
+    .btn4 {
+        width: $xl;
+        height: $xl ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: $radius;
+        padding: 4px;
+    }
+
+    .btn5 {
+        width: $w-xxl;
+        height: $xl;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .btn6 {
+        width: $xl;
+        height: $xl ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        padding: 4px;
+    }
+}
+
+.icon-button1 {
+    .btn1 {
+        width: $xs-12;
+        height: $xs-12 ;
+        font-size: $xs-12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn2 {
+        width: $xs-8;
+        height: $xs-8 ;
+        font-size: $xs-12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn3 {
+        width: $xs-4;
+        height: $xs-4 ;
+        font-size: $xs-8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn4 {
+        width: $xs;
+        height: $xs;
+        font-size: $xs-4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn5 {
+        width: $sm-4;
+        height: $sm-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn6 {
+        width: $sm;
+        height: $sm ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn7 {
+        width: $md-4;
+        height: $md-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn8 {
+        width: $md;
+        height: $md;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn9 {
+        width: $lg-4;
+        height: $lg-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn10 {
+        width: $lg;
+        height: $lg ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .btn11 {
+        width: $xl;
+        height: $xl ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+    }
+}
+
+.icon-button2 {
+    .btn1 {
+        width: $xs-12;
+        height: $xs-12 ;
+        font-size: $xs-12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn2 {
+        width: $xs-8;
+        height: $xs-8 ;
+        font-size: $xs-12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn3 {
+        width: $xs-4;
+        height: $xs-4 ;
+        font-size: $xs-8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn4 {
+        width: $xs;
+        height: $xs;
+        font-size: $xs-4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn5 {
+        width: $sm-4;
+        height: $sm-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn6 {
+        width: $sm;
+        height: $sm ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn7 {
+        width: $md-4;
+        height: $md-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn8 {
+        width: $md;
+        height: $md;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn9 {
+        width: $lg-4;
+        height: $lg-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn10 {
+        width: $lg;
+        height: $lg ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+
+    .btn11 {
+        width: $xl;
+        height: $xl ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color1;
+        border: 1px solid rgb(109, 107, 107);
+        color: rgb(93, 93, 241);
+    }
+}
+
+.icon-button3 {
+    .btn1 {
+        width: $xs-12;
+        height: $xs-12 ;
+        font-size: $xs-12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn2 {
+        width: $xs-8;
+        height: $xs-8 ;
+        font-size: $xs-12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn3 {
+        width: $xs-4;
+        height: $xs-4 ;
+        font-size: $xs-8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn4 {
+        width: $xs;
+        height: $xs;
+        font-size: $xs-4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn5 {
+        width: $sm-4;
+        height: $sm-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn6 {
+        width: $sm;
+        height: $sm ;
+        font-size: $sm-4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn7 {
+        width: $md-4;
+        height: $md-4 ;
+        font-size: $sm;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn8 {
+        width: $md;
+        height: $md;
+        font-size: $md-4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn9 {
+        width: $lg-4;
+        height: $lg-4 ;
+        font-size: $md;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn10 {
+        width: $lg;
+        height: $lg ;
+        font-size: $lg-4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+
+    .btn11 {
+        width: $xl;
+        height: $xl ;
+        font-size: $lg;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color2;
+        color: rgb(93, 93, 241);
+        box-shadow: none;
+    }
+}
+
+.icon-button4 {
+    .btn1 {
+        width: $xs-12;
+        height: $xs-12 ;
+        font-size: $xs-12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn2 {
+        width: $xs-8;
+        height: $xs-8 ;
+        font-size: $xs-12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn3 {
+        width: $xs-4;
+        height: $xs-4 ;
+        font-size: $xs-8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn4 {
+        width: $xs;
+        height: $xs;
+        font-size: $xs-4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn5 {
+        width: $sm-4;
+        height: $sm-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn6 {
+        width: $sm;
+        height: $sm ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn7 {
+        width: $md-4;
+        height: $md-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn8 {
+        width: $md;
+        height: $md;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn9 {
+        width: $lg-4;
+        height: $lg-4 ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn10 {
+        width: $lg;
+        height: $lg ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+
+    .btn11 {
+        width: $xl;
+        height: $xl ;
+        font-size: $xs;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: $bg-color3;
+        color: rgb(93, 93, 241);
+    }
+}
+
+.group-button1 {
+    .btn1 {
+        margin: 30px;
+
+        .bt1 {
+            height: $xs;
+            width: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $xs;
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt3 {
+            height: $xs;
+            width: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+    }
+
+    .btn2 {
+        margin: 30px;
+
+        .bt1 {
+            height: $sm;
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $sm;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt3 {
+            height: $sm;
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            font-weight: bold;
+        }
+
+    }
+
+    .btn3 {
+        margin: 30px;
+
+        .bt1 {
+            height: $md;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $md;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt3 {
+            height: $md;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            font-weight: bold;
+        }
+
+    }
+
+    .btn4 {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+
+        .bt1 {
+            height: $md;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 0;
+        }
+
+        .bt2 {
+            height: $md;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+            border-radius: 0;
+        }
+
+        .bt3 {
+            height: $md;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            font-weight: bold;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-top-right-radius: 0;
+        }
+    }
+
+}
+
+.group-button2 {
+    display: flex;
+    flex-direction: column;
+
+    .btn1 {
+        margin: 30px;
+
+        .bt1 {
+            height: $xs;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $xs;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+    }
+
+    .btn2 {
+        margin: 30px;
+
+        .bt1 {
+            height: $sm;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $sm;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .btn1 {
+            margin: 30px;
+
+            .bt1 {
+                height: $xs;
+                width: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                color: black;
+                border-color: rgb(133, 131, 131);
+                float: left;
+                font-weight: bold;
+            }
+
+            .bt2 {
+                height: $xs;
+                width: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                color: black;
+                border-color: rgb(133, 131, 131);
+                float: left;
+                font-weight: bold;
+            }
+
+        }
+    }
+
+    .btn3 {
+        margin: 30px;
+
+        .bt1 {
+            height: $md;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $md;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+    }
+
+    .btn4 {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+
+        .bt1 {
+            height: $md;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 0;
+        }
+
+        .bt2 {
+            height: $md;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+            border-bottom-left-radius: 5px;
+            border-top-right-radius: 0;
+        }
+
+    }
+
+}
+
+.group-button3 {
+    display: flex;
+    flex-direction: column;
+
+    .btn1 {
+        margin: 30px;
+
+        .bt1 {
+            height: $xs;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $xs;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+    }
+
+    .btn2 {
+        margin: 30px;
+
+        .bt1 {
+            height: $sm;
+            width: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $sm;
+            width: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+    }
+
+    .btn3 {
+        margin: 30px;
+
+        .bt1 {
+            height: $md;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $md;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+    }
+
+}
+
+.group-button4 {
+    display: flex;
+    flex-direction: column;
+
+    .btn1 {
+        margin: 30px;
+
+        .bt1 {
+            height: $xs;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $xs;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+    }
+
+    .btn2 {
+        margin: 30px;
+
+        .bt1 {
+            height: $sm;
+            width: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $sm;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+    }
+
+    .btn3 {
+        margin: 30px;
+
+        .bt1 {
+            height: $md;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $md;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+    }
+
+}
+
+.group-button5 {
+    display: flex;
+    flex-direction: column;
+
+    .btn1 {
+        margin: 30px;
+
+        .bt1 {
+            height: $xs;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $xs;
+            width: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+    }
+
+    .btn2 {
+        margin: 30px;
+
+        .bt1 {
+            height: $sm;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $sm;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+    }
+
+    .btn3 {
+        margin: 30px;
+
+        .bt1 {
+            height: $md;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt2 {
+            height: $md;
+            width: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+    }
+
+}
+
+.group-button6 {
+    .btn {
+        margin: 30px;
+
+        .bt1 {
+            height: $md;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .active {
+            background-color: #6875f5;
+        }
+
+        .bt2 {
+            height: $md;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt3 {
+            height: $md;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            font-weight: bold;
+        }
+
+    }
+}
+
+.group-button7 {
+    .btn {
+        margin: 30px;
+
+        .bt1 {
+            height: $md;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .active {
+            background-color: #6875f5;
+        }
+
+        .bt2 {
+            height: $md;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            float: left;
+            font-weight: bold;
+        }
+
+        .bt3 {
+            height: $md;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+            border-color: rgb(133, 131, 131);
+            font-weight: bold;
+            float: left;
+        }
+
+    }
+}
+
+
+.up-button1 {
+    .btn1 {
+        width: $w-2xl;
+        height: $lg;
+
+        .font1 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 15px;
+        }
+
+        .font3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 10px;
+        }
+    }
+
+    .btn2 {
+        width: $w-3xl;
+        height: $xl;
+
+        .font1 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 20px;
+        }
+
+        .font3 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 15px;
+        }
+    }
+
+    .btn3 {
+        width: $w-4xl;
+        height: $xl2;
+
+        .font1 {
+            font-size: 45px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 22px;
+        }
+
+        .font3 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 28px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 18px;
+        }
+    }
+
+    .btn4 {
+        width: $w-5xl;
+        height: $xl3;
+
+        .font1 {
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 25px;
+        }
+
+        .font3 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 20px;
+        }
+    }
+
+    .btn5 {
+        width: $w-5xl;
+        height: $xl3;
+
+        .font1 {
+            font-size: 55px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 28px;
+        }
+
+        .font3 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 32px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 22px;
+        }
+    }
+}
+
+.up-button2 {
+    .btn1 {
+        width: $w-2xl;
+        height: $lg;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 15px;
+        }
+
+        .font3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 10px;
+        }
+    }
+
+    .btn2 {
+        width: $w-3xl;
+        height: $xl;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+
+        .font1 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 20px;
+        }
+
+        .font3 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 15px;
+        }
+    }
+
+    .btn3 {
+        width: $w-4xl;
+        height: $xl2;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+
+        .font1 {
+            font-size: 45px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 22px;
+        }
+
+        .font3 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 28px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 18px;
+        }
+    }
+
+    .btn4 {
+        width: $w-5xl;
+        height: $xl3;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+
+        .font1 {
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 25px;
+        }
+
+        .font3 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 20px;
+        }
+    }
+
+    .btn5 {
+        width: $w-5xl;
+        height: $xl3;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+
+        .font1 {
+            font-size: 55px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 28px;
+        }
+
+        .font3 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 32px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 22px;
+        }
+    }
+}
+
+.up-button3 {
+    .btn1 {
+        width: $w-2xl;
+        height: $lg;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 15px;
+        }
+
+        .font3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 10px;
+        }
+    }
+
+    .btn2 {
+        width: $w-3xl;
+        height: $xl;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 20px;
+        }
+
+        .font3 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 15px;
+        }
+    }
+
+    .btn3 {
+        width: $w-4xl;
+        height: $xl2;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 45px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 22px;
+        }
+
+        .font3 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 28px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 18px;
+        }
+    }
+
+    .btn4 {
+        width: $w-5xl;
+        height: $xl3;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 25px;
+        }
+
+        .font3 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 20px;
+        }
+    }
+
+    .btn5 {
+        width: $w-5xl;
+        height: $xl3;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 55px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 28px;
+        }
+
+        .font3 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 32px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 22px;
+        }
+    }
+}
+
+.up-button4 {
+    .btn1 {
+        width: $w-2xl;
+        height: $lg;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 15px;
+        }
+
+        .font3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 10px;
+        }
+    }
+
+    .btn2 {
+        width: $w-3xl;
+        height: $xl;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 20px;
+        }
+
+        .font3 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 15px;
+        }
+    }
+
+    .btn3 {
+        width: $w-4xl;
+        height: $xl2;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 45px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 22px;
+        }
+
+        .font3 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 28px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 18px;
+        }
+    }
+
+    .btn4 {
+        width: $w-5xl;
+        height: $xl3;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 25px;
+        }
+
+        .font3 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 20px;
+        }
+    }
+
+    .btn5 {
+        width: $w-5xl;
+        height: $xl3;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 55px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 28px;
+        }
+
+        .font3 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .font4 {
+            font-size: 32px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .font5 {
+            font-size: 22px;
+        }
+    }
+}
+
+.down-button1 {
+    .btn1 {
+        width: $xl3;
+        height: $xl4;
+
+        .font1 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 15px;
+        }
+    }
+
+    .btn2 {
+        width: $xl4;
+        height: $xl5;
+
+        .font1 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 20px;
+        }
+    }
+
+    .btn3 {
+        width: $xl5;
+        height: $xl6;
+
+        .font1 {
+            font-size: 45px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 22px;
+        }
+    }
+
+    .btn4 {
+        width: $xl6;
+        height: $xl7;
+
+        .font1 {
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 25px;
+        }
+    }
+
+    .btn5 {
+        width: $xl7;
+        height: $xl8;
+
+        .font1 {
+            font-size: 55px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 28px;
+        }
+    }
+}
+
+.down-button2 {
+    .btn1 {
+        width: $xl3;
+        height: $xl4;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 15px;
+        }
+    }
+
+    .btn2 {
+        width: $xl4;
+        height: $xl5;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 20px;
+        }
+    }
+
+    .btn3 {
+        width: $xl5;
+        height: $xl6;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 45px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 22px;
+        }
+    }
+
+    .btn4 {
+        width: $xl6;
+        height: $xl7;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 25px;
+        }
+    }
+
+    .btn5 {
+        width: $xl7;
+        height: $xl8;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 55px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 28px;
+        }
+    }
+}
+
+.down-button3 {
+    .btn1 {
+        width: $xl3;
+        height: $xl4;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 15px;
+        }
+    }
+
+    .btn2 {
+        width: $xl4;
+        height: $xl5;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 20px;
+        }
+    }
+
+    .btn3 {
+        width: $xl5;
+        height: $xl6;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 45px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 22px;
+        }
+    }
+
+    .btn4 {
+        width: $xl6;
+        height: $xl7;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 25px;
+        }
+    }
+
+    .btn5 {
+        width: $xl7;
+        height: $xl8;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+
+        .font1 {
+            font-size: 55px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 28px;
+        }
+    }
+}
+
+.down-button4 {
+    .btn1 {
+        width: $xl3;
+        height: $xl4;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 15px;
+        }
+    }
+
+    .btn2 {
+        width: $xl4;
+        height: $xl5;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 20px;
+        }
+    }
+
+    .btn3 {
+        width: $xl5;
+        height: $xl6;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 45px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 22px;
+        }
+    }
+
+    .btn4 {
+        width: $xl6;
+        height: $xl7;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 25px;
+        }
+    }
+
+    .btn5 {
+        width: $xl7;
+        height: $xl8;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+
+        .font1 {
+            font-size: 55px;
+            padding: 10px;
+        }
+
+        .font2 {
+            font-size: 28px;
+        }
+    }
+}
+
+.arrow-button1 {
+    .btn1 {
+        width: $xs-4;
+        height: 60px;
+        font-size: $xs-12;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .btn2 {
+        width: $xs;
+        height: 72px;
+        font-size: $xs-8;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .btn3 {
+        width: $sm-4;
+        height: 84px;
+        font-size: $xs-4;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .btn4 {
+        width: $sm;
+        height: 96px;
+        font-size: $xs-4;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .btn5 {
+        width: $md;
+        height: 120px;
+        font-size: $sm;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .btn6 {
+        width: $lg;
+        height: 148px;
+        font-size: $md-4;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .btn7 {
+        width: $xl;
+        height: 172px;
+        font-size: $md;
+        padding: 4px;
+        border-radius: 10px;
+    }
+}
+
+.arrow-button2 {
+    .btn1 {
+        width: $xs-4;
+        height: 60px;
+        font-size: $xs-12;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+    }
+
+    .btn2 {
+        width: $xs;
+        height: 72px;
+        font-size: $xs-8;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+    }
+
+    .btn3 {
+        width: $sm-4;
+        height: 84px;
+        font-size: $xs-4;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+    }
+
+    .btn4 {
+        width: $sm;
+        height: 96px;
+        font-size: $xs-4;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+    }
+
+    .btn5 {
+        width: $md;
+        height: 120px;
+        font-size: $sm;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+    }
+
+    .btn6 {
+        width: $lg;
+        height: 148px;
+        font-size: $md-4;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+    }
+
+    .btn7 {
+        width: $xl;
+        height: 172px;
+        font-size: $md;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: white;
+        color: rgb(97, 16, 228);
+        border-color: rgb(97, 96, 96);
+        border: none;
+        box-shadow: none;
+    }
+}
+
+.arrow-button3 {
+    .btn1 {
+        width: $xs-4;
+        height: 60px;
+        font-size: $xs-12;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+    }
+
+    .btn2 {
+        width: $xs;
+        height: 72px;
+        font-size: $xs-8;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+    }
+
+    .btn3 {
+        width: $sm-4;
+        height: 84px;
+        font-size: $xs-4;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+    }
+
+    .btn4 {
+        width: $sm;
+        height: 96px;
+        font-size: $xs-4;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+    }
+
+    .btn5 {
+        width: $md;
+        height: 120px;
+        font-size: $sm;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+    }
+
+    .btn6 {
+        width: $lg;
+        height: 148px;
+        font-size: $md-4;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+    }
+
+    .btn7 {
+        width: $xl;
+        height: 172px;
+        font-size: $md;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: $bg-color3;
+        color: rgb(97, 16, 228);
+        border-color: $bg-color3;
+    }
+}
+
+.arrow-button4 {
+
+
+    .btn1 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $xs-4;
+            height: 30px;
+            font-size: $xs-12;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $xs-4;
+            height: 30px;
+            font-size: $xs-12;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #5850ec;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn2 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $xs;
+            height: 36px;
+            font-size: $xs-8;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $xs;
+            height: 36px;
+            font-size: $xs-8;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #5850ec;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn3 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $sm-4;
+            height: 42px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $sm-4;
+            height: 42px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #5850ec;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn4 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $sm;
+            height: 48px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $sm;
+            height: 48px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #5850ec;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn5 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $md;
+            height: 60px;
+            font-size: $sm;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $md;
+            height: 60px;
+            font-size: $sm;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #5850ec;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn6 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $lg;
+            height: 74px;
+            font-size: $md-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $lg;
+            height: 74px;
+            font-size: $md-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #5850ec;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn7 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $xl;
+            height: 86px;
+            font-size: $md;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $xl;
+            height: 86px;
+            font-size: $md;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #5850ec;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.arrow-button5 {
+
+
+    .btn1 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $xs-4;
+            height: 30px;
+            font-size: $xs-12;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bg-color2 {
+            width: $xs-4;
+            height: 30px;
+            font-size: $xs-12;
+            padding: 0px;
+            background-color: white;
+            color: rgb(97, 16, 228);
+            border-color: rgb(97, 96, 96);
+            border: none;
+            box-shadow: none;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn2 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $xs;
+            height: 36px;
+            font-size: $xs-8;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .bg-color2 {
+            width: $xs;
+            height: 36px;
+            font-size: $xs-8;
+            padding: 0px;
+            background-color: white;
+            color: rgb(97, 16, 228);
+            border-color: rgb(97, 96, 96);
+            border: none;
+            box-shadow: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn3 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $sm-4;
+            height: 42px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .bg-color2 {
+            width: $sm-4;
+            height: 42px;
+            font-size: $xs-4;
+            padding: 0px;
+            background-color: white;
+            color: rgb(97, 16, 228);
+            border-color: rgb(97, 96, 96);
+            border: none;
+            box-shadow: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn4 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $sm;
+            height: 48px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .bg-color2 {
+            width: $sm;
+            height: 48px;
+            font-size: $xs-4;
+            padding: 0px;
+            background-color: white;
+            color: rgb(97, 16, 228);
+            border-color: rgb(97, 96, 96);
+            border: none;
+            box-shadow: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn5 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $md;
+            height: 60px;
+            font-size: $sm;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .bg-color2 {
+            width: $md;
+            height: 60px;
+            font-size: $sm;
+            padding: 0px;
+            background-color: white;
+            color: rgb(97, 16, 228);
+            border-color: rgb(97, 96, 96);
+            border: none;
+            box-shadow: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn6 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $lg;
+            height: 74px;
+            font-size: $md-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .bg-color2 {
+            width: $lg;
+            height: 74px;
+            font-size: $md-4;
+            padding: 0px;
+            background-color: white;
+            color: rgb(97, 16, 228);
+            border-color: rgb(97, 96, 96);
+            border: none;
+            box-shadow: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn7 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $xl;
+            height: 86px;
+            font-size: $md;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #6875f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .bg-color2 {
+            width: $xl;
+            height: 86px;
+            font-size: $md;
+            padding: 0px;
+            background-color: white;
+            color: rgb(97, 16, 228);
+            border-color: rgb(97, 96, 96);
+            border: none;
+            box-shadow: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+
+}
+
+.arrow-button6 {
+
+
+    .btn1 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $xs-4;
+            height: 30px;
+            font-size: $xs-12;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #cddbfe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $xs-4;
+            height: 30px;
+            font-size: $xs-12;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #f0f5ff;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn2 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $xs;
+            height: 36px;
+            font-size: $xs-8;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #cddbfe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $xs;
+            height: 36px;
+            font-size: $xs-8;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #f0f5ff;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn3 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $sm-4;
+            height: 42px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #cddbfe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $sm-4;
+            height: 42px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #f0f5ff;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn4 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $sm;
+            height: 48px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #cddbfe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $sm;
+            height: 48px;
+            font-size: $xs-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #f0f5ff;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn5 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $md;
+            height: 60px;
+            font-size: $sm;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #cddbfe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $md;
+            height: 60px;
+            font-size: $sm;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #f0f5ff;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn6 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $lg;
+            height: 74px;
+            font-size: $md-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #cddbfe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $lg;
+            height: 74px;
+            font-size: $md-4;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #f0f5ff;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .btn7 {
+        margin: 30px;
+
+        .bg-color1 {
+            width: $xl;
+            height: 86px;
+            font-size: $md;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #cddbfe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bg-color2 {
+            width: $xl;
+            height: 86px;
+            font-size: $md;
+            padding: 0px;
+            border-radius: 10px;
+            background-color: #f0f5ff;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
